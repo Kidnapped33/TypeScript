@@ -24,10 +24,6 @@ console.log(total);
 //函数返回值声明类型
 //: number
 function add2(a: number, b: number): number {
-
-
-
-
     return a + b + ''
 }
 
@@ -62,3 +58,10 @@ function sum({ one, two }: { one: number, two: number }) {
 }
 let total3 = sum({ one: 1, two: 2 })
 
+
+//5-6
+
+function fn4(a: number, b: number) {
+    return a + b
+}
+fn4(10, 20)

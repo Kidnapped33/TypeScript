@@ -7,3 +7,11 @@ function ashine() {
 }
 
 ashine()
+
+//5-6
+function logA() {
+    let a: string = 'please log me'
+    console.log(a);
+}
+
+logA()

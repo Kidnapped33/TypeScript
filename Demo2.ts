@@ -14,3 +14,18 @@ const cat: Animal = {
 }
 
 console.log(cat.name);
+
+//5-6 静态类型
+
+interface Animal2 { }
+interface Animal2 {
+    name: string
+    age: number
+}
+
+const dog1 = {
+    name: 'dog1',
+    age: 2
+}
+
+
