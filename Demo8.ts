@@ -1,15 +1,15 @@
-// const jianli = (name: string, age: number, tall: number) => {
+const jianli = (name: string, age: number, tall: number) => {
 
-//     age > 18 && tall > 160 ? console.log(name + '简历通过') : console.log(name + '简历淘汰')
-// }
+    age > 18 && tall > 160 ? console.log(name + '简历通过') : console.log(name + '简历淘汰')
+}
 
-// const getJianli = (name: string, age: number, tall: number) => {
+const getJianli = (name: string, age: number, tall: number) => {
 
-//     console.log(name + age + tall);
-// }
+    console.log(name + age + tall);
+}
 
-// jianli('Amy', 25, 165)
-// getJianli('Amy', 25, 165)
+jianli('Amy', 25, 165)
+getJianli('Amy', 25, 165)
 
 
 //重复的部分，就可以用interface
